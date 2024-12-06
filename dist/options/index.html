@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuruLens - Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GuruLens Settings</h1>
+    <form id="settingsForm">
+      <label>
+        <input type="checkbox" id="darkMode">
+        Dark Mode
+      </label>
+
+      <label for="excludedSites">
+        Excluded Sites (One per line):
+      </label>
+      <textarea id="excludedSites" rows="5" placeholder="example.com&#10;another-site.com"></textarea>
+
+      <button type="button" id="saveSettings">Save Settings</button>
+    </form>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
