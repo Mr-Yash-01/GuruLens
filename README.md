@@ -1,52 +1,52 @@
-# GuruLens Chrome Extension
+# 📖 GuruLens: Instant Word Meaning Extension
 
-GuruLens is a Chrome extension that helps you find word meanings, explanations, and more directly in your browser.
+**GuruLens** is a simple and blazing-fast web extension that instantly shows the meaning, pronunciation, and usage of any word you select on a webpage. Designed to be faster than existing solutions like Google's dictionary extension, it enhances your vocabulary with just a single click.
 
-## Features
+---
 
-- Search for word meanings and explanations.
-- Display pronunciation of words.
-- Easy access to definitions directly from your browser.
+## 🚀 Features
 
-## How to Install (For Testing / Personal Use)
+- 📚 **Instant Word Meaning**: Select any word on the screen to get its meaning in a pop-up.
+- 🔊 **Pronunciation Help**: Listen to how the word is pronounced directly.
+- 📖 **Usage Examples**: Understand context with real-life usage examples.
+- ⚡ **Ultra-Fast**: Faster than many existing tools, no page reload or lag.
+- 🌐 **Offline-friendly**: Lightweight and efficient for local usage.
 
-You can download the GuruLens Chrome extension from GitHub and install it manually by following these steps:
+---
 
-### Steps to Install from GitHub
+## 🧠 Tech Stack
 
-#### Download the Extension
+- JavaScript
+- HTML & CSS
+- Dictionary API (like Free Dictionary API or WordsAPI)
+- Web Extension APIs (Chrome/Edge/Firefox)
 
-1. Go to the GuruLens GitHub repository (replace with your actual GitHub link).
-2. Click on the Code button and select Download ZIP.
-3. Save the .zip file to your computer.
+---
 
-#### Extract the ZIP File
+## 🛠️ How to Install Locally
 
-1. Unzip the downloaded .zip file to a folder on your computer.
+1. **Clone or Download the Repository**  
+   git clone https://github.com/Mr-Yash-01/GuruLens.git
+2. Open Chrome and Go to chrome://extensions/
+3. Enable Developer Mode (top right)
+4. Click on "Load Unpacked"
+5. Select the folder containing the extension code
 
-#### Load the Extension in Chrome
+✅ Done! Now select any word on any website to see the magic.
 
-1. Open Chrome and go to `chrome://extensions/`.
-2. Turn on Developer mode by toggling the switch in the top-right corner.
-3. Click on Load unpacked.
-4. Select the folder where you extracted the ZIP file and click Open.
+## 📂 Folder Structure
 
-## How to Contribute
+GuruLens-extension/
+- ├── manifest.json
+- ├── popup.html
+- ├── popup.js
+- ├── styles.css
+- └── icons/
+  
+## 💡 Use Cases
+- Students learning new vocabulary
+- Quick help during online reading
+- Language learners seeking pronunciation support
 
-We welcome contributions to improve the GuruLens extension! Here’s how you can contribute:
-
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your changes and test them.
-4. Commit your changes and push the branch to your forked repository.
-5. Submit a pull request.
-
-## Disclaimer
-
-This extension is built for educational and learning purposes.
-Feel free to fork and modify the code.
-We are not responsible for any issues caused by the use of this extension.
-
-## Contact
-
-**Creator:** Yash Vadukiya
+## 📬 Contributions
+Feel free to raise issues or submit pull requests to enhance this tool further!
